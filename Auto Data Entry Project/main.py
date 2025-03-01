@@ -31,7 +31,7 @@ addresses_list = [address.getText().strip() for address in addresses]
 print(addresses_list)
 
 """Automatic Filing"""
-google_form = "https://docs.google.com/forms/d/e/1FAIpQLScwdGdPQOH6CMwTgi8vn5uh5DVDX9U6G-dzdnOLPk-gJqj3MA/viewform?usp=sf_link"
+google_form = "YOUR FORMS LINK"
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
